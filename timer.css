@@ -1,0 +1,140 @@
+body {
+    font-family: 'Courier New';
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+img {
+    position: relative;
+    left: 100px;
+}
+
+#slideShow {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: fixed;
+    right: 1000px;
+    bottom: 300px;
+}
+#switch {
+    border: none;
+    padding: 20px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #32CD32;
+    color: #ffffff;
+    position: fixed;
+    right: 1050px;
+    bottom: 200px;
+}
+
+#switch:hover {
+    background-color: #008000;
+}
+
+
+#slideShow2 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: fixed;
+    right: 650px;
+    bottom: 300px;
+}
+
+#switch2 {
+    border: none;
+    padding: 20px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #32CD32;
+    color: #ffffff;
+    position: fixed;
+    right: 700px;
+    bottom: 200px;
+}
+
+#switch2:hover {
+    background-color: #008000;
+}
+
+
+#slideShow3 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: fixed;
+    right: 300px;
+    bottom: 300px;
+}
+#switch3 {
+    border: none;
+    padding: 20px;
+    width: 100px;
+    font-size: 20px;
+    background-color: #32CD32;
+    color: #ffffff;
+    position: fixed;
+    right: 350px;
+    bottom: 200px;
+}
+
+#switch3:hover {
+    background-color: #008000;
+}
+
+.result {
+    border: none;
+    padding: 20px;
+    width: 200px;
+    font-size: 30px;
+    background-color: #8DEEEE;
+    color: #ffffff;
+    position: fixed;
+    right: 650px;
+    top: 600px;
+}
+
+
+
+#info:hover {
+    background-color: #008080;
+}
+
+#nameSwitch {
+    position: fixed;
+    right: 1050px;
+    bottom: 520px; 
+}
+
+#nameSwitch2 {
+    position: fixed;
+    right: 700px;
+    bottom: 520px; 
+}
+
+#nameSwitch3 {
+    position: fixed;
+    right: 350px;
+    bottom: 520px;
+}
+
+.information {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+
+
